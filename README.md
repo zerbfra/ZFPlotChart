@@ -6,3 +6,6 @@ This class is used in PriceRadar, the app I wrote to track prices on Amazon, ava
 
 Feel free to use this class, let me know if you find some bugs!
 
+Preview
+
+![zfPlotChart](ZFPlotChart/preview.png)
