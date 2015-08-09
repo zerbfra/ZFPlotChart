@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		135A8D301B77A1E000CE017E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D2F1B77A1E000CE017E /* data.json */; };
 		13899B421B36CF4B0060AD92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B411B36CF4B0060AD92 /* main.m */; };
 		13899B451B36CF4B0060AD92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B441B36CF4B0060AD92 /* AppDelegate.m */; };
 		13899B481B36CF4B0060AD92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B471B36CF4B0060AD92 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		13899B4D1B36CF4B0060AD92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13899B4C1B36CF4B0060AD92 /* Images.xcassets */; };
 		13899B501B36CF4B0060AD92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13899B4E1B36CF4B0060AD92 /* LaunchScreen.xib */; };
 		13899B5C1B36CF4C0060AD92 /* ZFPlotChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B5B1B36CF4C0060AD92 /* ZFPlotChartTests.m */; };
+		13899B6A1B36CF820060AD92 /* ZFPlotChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B691B36CF820060AD92 /* ZFPlotChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		135A8D2F1B77A1E000CE017E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		13899B3C1B36CF4B0060AD92 /* ZFPlotChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPlotChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13899B401B36CF4B0060AD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13899B411B36CF4B0060AD92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,8 @@
 		13899B551B36CF4B0060AD92 /* ZFPlotChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPlotChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13899B5A1B36CF4C0060AD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13899B5B1B36CF4C0060AD92 /* ZFPlotChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPlotChartTests.m; sourceTree = "<group>"; };
+		13899B681B36CF820060AD92 /* ZFPlotChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlotChart.h; sourceTree = "<group>"; };
+		13899B691B36CF820060AD92 /* ZFPlotChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlotChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				13899B441B36CF4B0060AD92 /* AppDelegate.m */,
 				13899B461B36CF4B0060AD92 /* ViewController.h */,
 				13899B471B36CF4B0060AD92 /* ViewController.m */,
+				13899B681B36CF820060AD92 /* ZFPlotChart.h */,
+				13899B691B36CF820060AD92 /* ZFPlotChart.m */,
 				13899B491B36CF4B0060AD92 /* Main.storyboard */,
 				13899B4C1B36CF4B0060AD92 /* Images.xcassets */,
 				13899B4E1B36CF4B0060AD92 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		13899B3F1B36CF4B0060AD92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				135A8D2F1B77A1E000CE017E /* data.json */,
 				13899B401B36CF4B0060AD92 /* Info.plist */,
 				13899B411B36CF4B0060AD92 /* main.m */,
 			);
@@ -202,6 +210,7 @@
 				13899B4B1B36CF4B0060AD92 /* Main.storyboard in Resources */,
 				13899B501B36CF4B0060AD92 /* LaunchScreen.xib in Resources */,
 				13899B4D1B36CF4B0060AD92 /* Images.xcassets in Resources */,
+				135A8D301B77A1E000CE017E /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13899B481B36CF4B0060AD92 /* ViewController.m in Sources */,
+				13899B6A1B36CF820060AD92 /* ZFPlotChart.m in Sources */,
 				13899B451B36CF4B0060AD92 /* AppDelegate.m in Sources */,
 				13899B421B36CF4B0060AD92 /* main.m in Sources */,
 			);
@@ -418,6 +428,7 @@
 				13899B611B36CF4C0060AD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13899B621B36CF4C0060AD92 /* Build configuration list for PBXNativeTarget "ZFPlotChartTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				13899B641B36CF4C0060AD92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

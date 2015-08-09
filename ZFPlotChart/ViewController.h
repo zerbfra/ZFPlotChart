@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZFPlotChart.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet ZFPlotChart *plotChart;
 
 
 @end
