@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		135A8D301B77A1E000CE017E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D2F1B77A1E000CE017E /* data.json */; };
 		135A8D321B77A7AD00CE017E /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D311B77A7AD00CE017E /* preview.png */; };
-		135A8D341B77A9B800CE017E /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D331B77A9B800CE017E /* preview.png */; };
+		135A8D361B77AA0E00CE017E /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D351B77AA0E00CE017E /* preview.png */; };
 		13899B421B36CF4B0060AD92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B411B36CF4B0060AD92 /* main.m */; };
 		13899B451B36CF4B0060AD92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B441B36CF4B0060AD92 /* AppDelegate.m */; };
 		13899B481B36CF4B0060AD92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B471B36CF4B0060AD92 /* ViewController.m */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		135A8D2F1B77A1E000CE017E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		135A8D311B77A7AD00CE017E /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
-		135A8D331B77A9B800CE017E /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		135A8D351B77AA0E00CE017E /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 		13899B3C1B36CF4B0060AD92 /* ZFPlotChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPlotChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13899B401B36CF4B0060AD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13899B411B36CF4B0060AD92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 		13899B591B36CF4C0060AD92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				135A8D331B77A9B800CE017E /* preview.png */,
+				135A8D351B77AA0E00CE017E /* preview.png */,
 				13899B5A1B36CF4C0060AD92 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -225,7 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				135A8D341B77A9B800CE017E /* preview.png in Resources */,
+				135A8D361B77AA0E00CE017E /* preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
