@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		135A8D301B77A1E000CE017E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D2F1B77A1E000CE017E /* data.json */; };
-		135A8D381B77AA6400CE017E /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 135A8D371B77AA6400CE017E /* preview.png */; };
 		13899B421B36CF4B0060AD92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B411B36CF4B0060AD92 /* main.m */; };
 		13899B451B36CF4B0060AD92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B441B36CF4B0060AD92 /* AppDelegate.m */; };
 		13899B481B36CF4B0060AD92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13899B471B36CF4B0060AD92 /* ViewController.m */; };
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		135A8D2F1B77A1E000CE017E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		135A8D371B77AA6400CE017E /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 		13899B3C1B36CF4B0060AD92 /* ZFPlotChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPlotChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13899B401B36CF4B0060AD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13899B411B36CF4B0060AD92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		13899B3F1B36CF4B0060AD92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				135A8D371B77AA6400CE017E /* preview.png */,
 				135A8D2F1B77A1E000CE017E /* data.json */,
 				13899B401B36CF4B0060AD92 /* Info.plist */,
 				13899B411B36CF4B0060AD92 /* main.m */,
@@ -214,7 +211,6 @@
 				13899B501B36CF4B0060AD92 /* LaunchScreen.xib in Resources */,
 				13899B4D1B36CF4B0060AD92 /* Images.xcassets in Resources */,
 				135A8D301B77A1E000CE017E /* data.json in Resources */,
-				135A8D381B77AA6400CE017E /* preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
