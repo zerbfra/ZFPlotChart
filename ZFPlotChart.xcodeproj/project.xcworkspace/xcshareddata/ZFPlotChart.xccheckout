@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C2A84B5D-487D-4925-8D32-6112C53FB1A7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZFPlotChart</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B333D55996A51EE13B7A99C43A031119C1C70BA4</key>
+		<string>https://github.com/zerbfra/zfPlotChart.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZFPlotChart.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B333D55996A51EE13B7A99C43A031119C1C70BA4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zerbfra/zfPlotChart.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B333D55996A51EE13B7A99C43A031119C1C70BA4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B333D55996A51EE13B7A99C43A031119C1C70BA4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZFPlotChart</string>
+		</dict>
+	</array>
+</dict>
+</plist>
